@@ -1,0 +1,84 @@
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 50px auto 50px auto;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    direction: rtl;
+    margin: 0 30px;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 35px;
+    color: black;
+    cursor: pointer;
+}
+
+#blue-item {
+    border-color: #64B5F6;
+}
+
+#blue-item.clicked {
+    background-color: #64B5F6;
+    color: white;
+}
+
+#green-item {
+    border-color: #66bb6a;
+}
+
+#green-item.clicked {
+    background-color: #66bb6a;
+    color: white;
+}
+
+#lime-item {
+    border-color: #afb42b;
+}
+
+#lime-item.clicked {
+    background-color: #afb42b;
+    color: white;
+}
+
+#orange-item {
+    border-color: #ffa726;
+}
+
+#orange-item.clicked {
+    background-color: #ffa726;
+    color: white;
+}
+
+[class*="clicked"] span {
+    color: white;
+}
+.amount {
+    color: gray;
+}
+
+/* .card-panel {
+    opacity: 1;
+    height: 200px;
+    transition: opacity 2s, height 0s;
+}
+.animation {
+    animation-name:  cardHide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes  cardHide{
+    0% {
+        opacity: 1;
+        height: auto;
+    }
+    100% {
+        opacity: 0;
+        height: 0;
+    }
+} */
